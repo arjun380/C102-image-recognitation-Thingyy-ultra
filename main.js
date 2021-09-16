@@ -22,7 +22,7 @@ function modelLoaded()
     console.log("model is loaded");
 }
 
-function filter()
+function filtering()
 { 
     img = document.getElementById('captured_img'); 
     classifier.classify(img,gotResult);
